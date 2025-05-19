@@ -9,8 +9,8 @@ body {
   margin: 0;
 }
 #game {
-  margin: 4px;
-  border: 5px solid black;
+  margin: 20px;
+  border: 21px solid black;
   left: 0;
   position: absolute;
   background-image: url("rain-forest.png.gif");
@@ -18,13 +18,13 @@ body {
 }
 
 #left-paddle {
-  background-color: yellow;
+  background-color: cyan;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: black;
+  background-color: cyan;
   right: 10px;
  
   
@@ -86,6 +86,7 @@ body {
 
 .score {
   display: block;
+  color: yellow;
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
