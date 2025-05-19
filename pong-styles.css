@@ -7,9 +7,12 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-image: url("forest.png");
+  background-size: cover;
+  background-position: center;
 }
 #game {
-  margin: 20px;
+  margin: 0;
   border: 5px solid black;
   top: 150;
   left: 400;
@@ -78,7 +81,7 @@ body {
 .ball {
   width: 15px;
   height: 15px;
-  background-color: green;
+  background-color: yellow;
   border-radius: 10px;
   position: absolute;
   left: 50px;
