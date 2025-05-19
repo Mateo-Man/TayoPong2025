@@ -11,8 +11,8 @@ body {
 #game {
   margin: 20px;
   border: 5px solid black;
-  left: 0;
-  right: 0;
+  top: 150;
+  left: 400;
   position: absolute;
   background-image: url("rain-forest.png.gif");
   background-size: cover;
@@ -78,7 +78,7 @@ body {
 .ball {
   width: 15px;
   height: 15px;
-  background-color: dark-green;
+  background-color: green;
   border-radius: 10px;
   position: absolute;
   left: 50px;
